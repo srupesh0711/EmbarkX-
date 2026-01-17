@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(value = "/embarkX/api/v1")
 public class Hello {
 // http://localhost:8080/embarkX/api/v1/hello
-    @GetMapping(value = "/hello")
+    @GetMapping("/hello")
     public String helloWorld(){
         return "Hello World!";
     }
